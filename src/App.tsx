@@ -1,8 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {initToken} from './firebase.service'
 
 function App() {
+
+initToken()
+  
+
   return (
     <div className="App">
       <header className="App-header">
